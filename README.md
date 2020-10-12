@@ -2,7 +2,7 @@
 
 
 - **Prepare and Configure Your Dedicated Server:**
-     If you aren't quite ready to manage your own server configuration or aren't comfortable configuring all of the various services needed to run a robust Laravel       application, you can use one of the following options:
+     If you aren't quite ready to manage your own server configuration or aren't comfortable configuring all of the various services needed to run a robust Laravel application, you can use one of the following options:
     - https://forge.laravel.com/ 
       (Can create servers on various infrastructure providers such as DigitalOcean, Linode, AWS, and more)
       
@@ -11,6 +11,19 @@
 
 - **Configer MySQL:**
      You need to create a database specific to your project, and a user to access it.
+
+- **.env file:**
+      Copy the example file as our main .env file with this command: `cp .env.example .env`.
+      The main variables to change are your app URL and database credentials: 
+      - APP_URL=http://localhost
+      - DB_CONNECTION=mysql
+      - DB_HOST=127.0.0.1
+      - DB_PORT=3306
+      - DB_DATABASE=homestead
+      - DB_USERNAME=homestead
+      - DB_PASSWORD=secret
+
+      Then add the your database credentials in the domain configuration. 
 
 - **Optimization:**
     Run the following command to optimize Composer's class: 
