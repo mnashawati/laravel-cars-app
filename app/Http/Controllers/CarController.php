@@ -33,7 +33,7 @@ class CarController extends Controller
     {   
         Car::create($this->validatedData());
 
-        return redirect('cars');
+        return redirect('/cars');
     }
 
     public function show($carId)
