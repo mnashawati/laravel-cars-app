@@ -14,7 +14,7 @@
 
 - **.env file:**
       Copy the example file as your main .env file with this command: `cp .env.example .env`.
-      The main variables to change are your app URL and database credentials: 
+      The main variables to change are your app URL and database credentials, then add your database credentials in the domain configuration: 
         APP_URL=http://localhost
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
@@ -22,8 +22,6 @@
         DB_DATABASE=homestead
         DB_USERNAME=homestead
         DB_PASSWORD=secret
-
-      Then add the your database credentials in the domain configuration. 
 
 - **Generate Application Key:**
      Run the following command: `php artisan key:generate`
