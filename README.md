@@ -9,7 +9,7 @@
     - https://vapor.laravel.com/ 
       (A serverless deployment platform for Laravel, powered by AWS)
 
-- **Configer MySQL:**
+- **Configure MySQL:**
      You need to create a database specific to your project, and a user to access it.
 
 - **.env file:**
@@ -24,6 +24,14 @@
         DB_PASSWORD=secret
 
       Then add the your database credentials in the domain configuration. 
+
+- **Generate Application Key:**
+     Run the following command: `php artisan key:generate`
+
+- **Migrate DB Schema:**
+     Run the following command: `php artisan migrate`
+
+- **Launch!**
 
 - **Optimization:**
     Run the following command to optimize Composer's class: 
