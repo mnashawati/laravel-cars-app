@@ -2,7 +2,7 @@
     
 - Optimization:
     run the following command to optimize Composer's class: 
-    *composer install --optimize-autoloader --no-dev*
+    *b*composer install --optimize-autoloader --no-dev*b*
     Also, make sure to include a composer.lock file in the project's source control repository, so the dependencies can be installed much faster.
 
 - Optimizing Configuration Loading:
