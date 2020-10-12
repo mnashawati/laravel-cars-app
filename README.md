@@ -1,5 +1,13 @@
 ## Deployment instructions:
 
+
+- **Prepare and Configure Your Dedicated Server:**
+     If you aren't quite ready to manage your own server configuration or aren't comfortable configuring all of the various services needed to run a robust Laravel       application, you can use one of the following options:
+    - https://forge.laravel.com/ 
+      (Can create servers on various infrastructure providers such as DigitalOcean, Linode, AWS, and more)
+      
+    - https://vapor.laravel.com/ 
+      (A serverless deployment platform for Laravel, powered by AWS)
     
 - **Optimization:**
     Run the following command to optimize Composer's class: 
@@ -20,11 +28,3 @@
     Run the following command during deployment process: 
     `php artisan view:cache`
     This will precomlie all your Blade views so they are not compiled on demand, improving the performance of each request that returns a view.
-    
-- **Deploying With Forge / Vapor:**
-    If you aren't quite ready to manage your own server configuration or aren't comfortable configuring all of the various services needed to run a robust Laravel       application, you can use one of the following options:
-    - https://forge.laravel.com/ 
-      (Can create servers on various infrastructure providers such as DigitalOcean, Linode, AWS, and more)
-      
-    - https://vapor.laravel.com/ 
-      (A serverless deployment platform for Laravel, powered by AWS)
