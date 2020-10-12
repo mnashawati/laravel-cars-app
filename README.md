@@ -8,7 +8,10 @@
       
     - https://vapor.laravel.com/ 
       (A serverless deployment platform for Laravel, powered by AWS)
-    
+
+- **Configer MySQL:**
+     You need to create a database specific to your project, and a user to access it.
+
 - **Optimization:**
     Run the following command to optimize Composer's class: 
     `composer install --optimize-autoloader --no-dev`
