@@ -21,7 +21,7 @@
       - DB_PORT=3306
       - DB_DATABASE=homestead
       - DB_USERNAME=homestead
-      - DB_PASSWORD=secret
+        DB_PASSWORD=secret
 
       Then add the your database credentials in the domain configuration. 
 
