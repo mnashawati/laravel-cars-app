@@ -13,7 +13,7 @@
      You need to create a database specific to your project, and a user to access it.
 
 - **.env file:**
-      Copy the example file as our main .env file with this command: `cp .env.example .env`.
+      Copy the example file as your main .env file with this command: `cp .env.example .env`.
       The main variables to change are your app URL and database credentials: 
         APP_URL=http://localhost
         DB_CONNECTION=mysql
