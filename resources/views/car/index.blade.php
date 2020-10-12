@@ -3,7 +3,9 @@
 @section('title', 'Cars Table')
 
 @section('content')
+
 @include('nav')
+
     <h2>All Cars</h2>
     <button><a href="/cars/create" style="text-decoration:none">New</a></button>
     <hr>
@@ -36,5 +38,6 @@
         @empty 
             <p>No cars to show</p>    
         @endforelse
-    </table>    
+    </table>
+    
 @endsection
