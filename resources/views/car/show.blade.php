@@ -32,6 +32,4 @@
     <span>{{ $car->topSpeed }}</span>
 </div>
 
-<div>
-
-</div>
+@endsection
