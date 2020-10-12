@@ -7,9 +7,13 @@
 @include('nav')
 
     <h2>All Cars</h2>
+
     <button><a href="/cars/create" style="text-decoration:none">New</a></button>
+    
     <hr>
+
     <table style="width:100%">
+
         <tr style="text-align:left">
             <th>Make</th>
             <th>Model</th>
@@ -19,6 +23,7 @@
             <th>Edit</th>
             <th>Delete</th>
         </tr>
+
         @forelse($cars as $car)
             <tr>
                 <td>{{$car->make}}</td>
@@ -35,9 +40,10 @@
                         </form>
                 </td>
             </tr>
-        @empty 
+            @empty 
             <p>No cars to show</p>    
         @endforelse
+
     </table>
     
 @endsection
