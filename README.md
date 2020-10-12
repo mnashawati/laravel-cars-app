@@ -15,12 +15,12 @@
 - **.env file:**
       Copy the example file as our main .env file with this command: `cp .env.example .env`.
       The main variables to change are your app URL and database credentials: 
-      - APP_URL=http://localhost
-      - DB_CONNECTION=mysql
-      - DB_HOST=127.0.0.1
-      - DB_PORT=3306
-      - DB_DATABASE=homestead
-      - DB_USERNAME=homestead
+        APP_URL=http://localhost
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=homestead
+        DB_USERNAME=homestead
         DB_PASSWORD=secret
 
       Then add the your database credentials in the domain configuration. 
